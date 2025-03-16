@@ -9,10 +9,10 @@ Compiling the kernel loadable if_re.ko will display the NIC information.
 
 soekris# kldload if_re
 
-``re0: <RealTek 8169SB Single-chip Gigabit Ethernet> port 0xe400-0xe4ff mem 0xa0003000-0xa00030ff irq 11 at device 10.0 on pci0
+re0: <RealTek 8169SB Single-chip Gigabit Ethernet> port 0xe400-0xe4ff mem 0xa0003000-0xa00030ff irq 11 at device 10.0 on pci0
 miibus3: <MII bus> on re0
 ukphy3: <Generic IEEE 802.3u media interface> on miibus3
-ukphy3:  10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, auto''
+ukphy3:  10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, auto
 
 soekris# ifconfig re0
 re0: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
