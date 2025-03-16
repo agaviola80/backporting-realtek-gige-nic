@@ -6,8 +6,8 @@ This is an actual hands-on learning the details on how porting works in FreeBSD 
 The original license of the source codes from the author were preserved.
 
 Compiling the kernel loadable if_re.ko will display the NIC information.
-
-soekris# kldload if_re
+soekris# make clean && make && make install
+soekris# kldload if_re.ko
 
 re0: <RealTek 8169SB Single-chip Gigabit Ethernet> port 0xe400-0xe4ff mem 0xa0003000-0xa00030ff irq 11 at device 10.0 on pci0
 miibus3: <MII bus> on re0
